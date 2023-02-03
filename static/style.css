@@ -21,7 +21,7 @@ html,body{
     background: linear-gradient(90deg, rgba(1,0,19,1) 5%, rgba(26,11,60,1) 100%);
     overflow-y:auto;
     width:300px;
-    transition: all ease-in-out 0.5;
+    transition: all ease-in-out 1s;
     padding:0 10px;
     z-index:9999;
 }
@@ -98,9 +98,6 @@ html,body{
     width:100%;
     height:100vh;
 }
-section#inicio{
-
-}
 section#inicio h2{
     font-size:4rem;
     color:rgb(25, 59, 87);
@@ -132,4 +129,49 @@ section#inicio div#arraste a{
     background-color: rgba(186, 79, 79, 0.392);
     word-spacing:-1px;
 
+}
+.menu-sm{
+ background: rgba(26,11,60,1);
+ color: #f0f8ff;
+ font-size:1.5rem;
+ position: fixed;
+ top:1rem;
+ right:1rem;
+ width:3rem;
+ border-radius:20%;
+ border:1px solid white;
+ display:none;
+ width:45px;
+ height:40px;
+ justify-content: center;
+ align-items: center;
+ cursor:pointer;
+ z-index:10;
+}
+.menu-nav-active{
+    overflow: hidden;
+}
+.menu-nav-active #header{
+    transition:all 0.3s;
+    left: 0;
+}
+@media(max-width:1024px){
+    #header{
+        left:-300px;
+    }
+    .menu-sm{
+        display:flex;
+    }
+    section#inicio h2{
+        font-size:2.5rem;
+    }
+    section#inicio p{
+        font-size:1.3rem;
+    }
+    #main{
+        margin-left:0px;
+    }
+    section#inicio div#arraste a{
+        font-size:1rem;
+    }
 }
