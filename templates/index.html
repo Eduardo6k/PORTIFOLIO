@@ -35,14 +35,14 @@
                 </a>
             </div>
         </section>
-    <nav class="nav flex-column nav-menu">
-        <a class="nav-link active" aria-current="page" href="#main"><i class="bi bi-house-fill"></i> inicio</a>
-        <ul>
-            <li> <a class="nav-link" href="#"> <i class="bi bi-code-square"></i> PROJETOS</a></li> 
-            <li> <a class="nav-link" href="#sobre"> <i class="bi bi-person-circle"></i> SOBRE</a></li>
-            <li> <a class="nav-link" href="#"> <i class="bi bi-graph-up"></i> HABILIDADES</a></li>
-        </ul>
-    </nav>
+        <nav class="nav flex-column nav-menu">
+            <a class="nav-link active" aria-current="page" href="#main"><i class="bi bi-house-fill"></i> inicio</a>
+            <ul>
+                <li class="nav-item"> <a class="nav-link" href="#sobre"> <i class="bi bi-person-circle"></i> SOBRE</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#habilidades"> <i class="bi bi-code-square"></i> HABILIDADES</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#curriculo"> <i class="bi bi-graph-up"></i> CURRICULO</a></li>
+            </ul>
+        </nav>
     </aside>
     <!-- fim da barra lateral de informações -->
 
@@ -50,47 +50,183 @@
     <main id="main">
         <!-- começo da primeira seçao -->
         <section class="row m-0 p-0" id="inicio">
-            <div class="logo col-md-5 d-flex justify-content-center  flex-column">
+            <div class="logo col-md-6 d-flex justify-content-center  flex-column">
                 <h2>seja bem vindo</h2>
                 <p>este é meu portifolio</p>
             </div>
-            <div id="arraste" class="col-md-7 d-flex justify-content-end align-items-end flex-column">
-             <div class="d-flex align-items-center">
-                <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-                <a href="#sobre">arraste para mais</a>
-             </div>
+            <div id="arraste" class="col-md-6 d-flex justify-content-end align-items-end flex-column">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+                    <a href="#sobre">arraste para mais</a>
+                </div>
             </div>
         </section>
         <!-- fim da primeira seçao -->
 
-        <!-- segunda seçao  -->
-        <section class="container mt-5" id="sobre">
+        <!-- segunda seçao (sobre) -->
+        <section class="container w-75 mt-5 ms-auto me-auto" id="sobre">
             <div class="row-100">
                 <div class="col-md-12">
                     <h2 class="pt-3">sobre</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit lectus rhoncus, eros est orci eleifend massa primis laoreet sollicitudin ad interdum, vivamus accumsan lacus torquent morbi fringilla cras id. Ut lobortis accumsan in iaculis elementum blandit, massa sagittis est curae nibh tempor netus, natoque non pharetra eleifend mattis. Pharetra taciti eu torquent vestibulum primis quis, auctor lacus id dignissim ultricies dis ipsum, vulputate facilisi donec elementum varius. Elementum suscipit sit nibh habitasse consectetur nullam tellus, torquent accumsan dis lorem eros est, feugiat hendrerit praesent ultrices sagittis scelerisque. Dictum vel aliquam vulputate enim ut ante, sit torquent sed egestas mattis sapien, viverra dis aenean nisl habitasse. Laoreet lectus cubilia eget vivamus accumsan ac proin sit, mattis urna risus id taciti morbi potenti mollis nullam, rhoncus venenatis at leo pretium dapibus posuere. Pharetra rhoncus habitant consequat parturient pulvinar ante imperdiet hac sapien ridiculus quam augue mauris justo, elementum suscipit metus morbi venenatis phasellus posuere per convallis id class risus inceptos. Pharetra magna cubilia id conubia sapien luctus ac nibh, posuere adipiscing inceptos condimentum leo massa elementum ut blandit, aliquet ante nunc consectetur venenatis elit lobortis.
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit lectus rhoncus, eros est orci eleifend
+                        massa primis laoreet sollicitudin ad interdum, vivamus accumsan lacus torquent morbi fringilla
+                        cras id. Ut lobortis accumsan in iaculis elementum blandit, massa sagittis est curae nibh tempor
+                        netus, natoque non pharetra eleifend mattis. Pharetra taciti eu torquent vestibulum primis quis,
+                        auctor lacus id dignissim ultricies dis ipsum, vulputate facilisi donec elementum varius.
+                        Elementum suscipit sit nibh habitasse consectetur nullam tellus, torquent accumsan dis lorem
+                        eros est, feugiat hendrerit praesent ultrices sagittis scelerisque. Dictum vel aliquam vulputate
+                        enim ut ante, sit torquent sed egestas mattis sapien, viverra dis aenean nisl habitasse. Laoreet
+                        lectus cubilia eget vivamus accumsan ac proin sit, mattis urna risus id taciti morbi potenti
+                        mollis nullam, rhoncus venenatis at leo pretium dapibus posuere. Pharetra rhoncus habitant
+                        consequat parturient pulvinar ante imperdiet hac sapien ridiculus quam augue mauris justo,
+                        elementum suscipit metus morbi venenatis phasellus posuere per convallis id class risus
+                        inceptos. Pharetra magna cubilia id conubia sapien luctus ac nibh, posuere adipiscing inceptos
+                        condimentum leo massa elementum ut blandit, aliquet ante nunc consectetur venenatis elit
+                        lobortis.
                     </p>
+                    <hr class=" w-50 me-auto ms-auto mt-5">
+
                 </div>
             </div>
-        <!-- foto -->
-        <div class="row mt-5">
-            <div class="col-md-4">
-                <img class="img-fluid shadow" src="../static/img/robo.jfif" alt="foto de perfil">
+            <!-- foto -->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="../static/img/dev2.png" alt="foto de perfil">
+                </div>
+                <div class="col-md-8 mt-5">
+                    <h2>Eduardo alves martins neto</h2>
+                    <p>cencerjrjvr rvj rvv rjvercercer crecerc ecrecrrecer errcer rercere crcecec receervtv eccecece
+                        eecee</p>
+                    <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">Idade: <span class="fw-lighter">19 anos</span>
+                        </li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-8 mt-5">
-                <h2>Eduardo alves martins neto</h2>
-                <p>cencerjrjvr rvj rvv rjvercercer crecerc ecrecrrecer errcer rercere crcecec receervtv eccecece eecee</p>
-                <ul class="list-group list-group-flush fs-5">
-                    <li class="list-group-item">Idade: <span class="fw-lighter">19 anos</span>
-                    </li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                    <li class="list-group-item">A fourth item</li>
-                    <li class="list-group-item">And a fifth one</li>
-                  </ul>
+            <!-- fim da foto -->
+        </section>
+
+        <!-- terceira secao(habilidades) -->
+        <section class=" mt-5 section-bg" id="habilidades">
+            <div class="container pb-5 w-75 me-auto ms-auto">
+                <h2 class="font-monospace">habilidades</h2>
+                <p>minhas habilidades..... f nfn fiikini infidnf ineinein nffienie ien hvbeiobj eubjvejb bfeeo
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mb-0 mt-4">HTML</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 86%">80%</div>
+                        </div>
+                        <p class="mb-0 mt-4">HTML</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 86%">80%</div>
+                        </div>
+                        <p class="mb-0 mt-4">HTML</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 86%">80%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="mb-0 mt-4">HTML</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 86%">80%</div>
+                        </div>
+                        <p class="mb-0 mt-4">HTML</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 86%">80%</div>
+                        </div>
+                        <p class="mb-0 mt-4">HTML</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 86%">80%</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+
+
+        <!-- quarta secao(curriculo) -->
+        <section class="w-75 me-auto ms-auto mt-5 cv " id="curriculo">
+            <div class="container pb-5">
+                <div class="row">
+                    <h2 class="font-monospace mb-5">CURRICULO:</h2>
+                    <div class="col-md-6 ">
+                        <h3 class="cv-titulo">EDUCAÇÃO</h3>
+                        <div class="cv-item">
+                            <h4>ciencias da computção/UEPB</h4>
+                            <h5>2022-atual</h5>
+                            <p><em>terceiro periodo</em></p>
+                            <p>A Universidade Estadual da Paraíba objetiva ser uma instituição de referência no ensino,
+                                pesquisa e extensão indissociáveis e comprometidos com a inovação</p>
+                            <hr>
+                        </div>
+
+                        <div class="cv-item">
+                            <h4>ciencias da computção/UEPB</h4>
+                            <h5>2022-atual</h5>
+                            <p><em>terceiro periodo</em></p>
+                            <p>A Universidade Estadual da Paraíba objetiva ser uma instituição de referência no ensino,
+                                pesquisa e extensão indissociáveis e comprometidos com a inovação</p>
+                            <hr>
+                        </div>
+
+                        <div class="cv-item">
+                            <h4>ciencias da computção/UEPB</h4>
+                            <h5>2022-atual</h5>
+                            <p><em>terceiro periodo</em></p>
+                            <p>A Universidade Estadual da Paraíba objetiva ser uma instituição de referência no ensino,
+                                pesquisa e extensão indissociáveis e comprometidos com a inovação</p>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <!-- profissional -->
+                    <div class="col-md-6">
+                        <h3 class="cv-titulo">profissional</h3>
+                        <div class="cv-item">
+                            <h4>ciencias da computção/UEPB</h4>
+                            <h5>2022-atual</h5>
+                            <p><em>terceiro periodo</em></p>
+                            <p>A Universidade Estadual da Paraíba objetiva ser uma instituição de referência no ensino,
+                                pesquisa e extensão indissociáveis e comprometidos com a inovação</p>
+                            <hr>
+                        </div>
+
+                        <div class="cv-item">
+                            <h4>ciencias da computção/UEPB</h4>
+                            <h5>2022-atual</h5>
+                            <p><em>terceiro periodo</em></p>
+                            <p>A Universidade Estadual da Paraíba objetiva ser uma instituição de referência no ensino,
+                                pesquisa e extensão indissociáveis e comprometidos com a inovação</p>
+                            <hr>
+                        </div>
+
+                        <div class="cv-item">
+                            <h4>ciencias da computção/UEPB</h4>
+                            <h5>2022-atual</h5>
+                            <p><em>terceiro periodo</em></p>
+                            <p>A Universidade Estadual da Paraíba objetiva ser uma instituição de referência no ensino,
+                                pesquisa e extensão indissociáveis e comprometidos com a inovação</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+
         </section>
 
     </main>

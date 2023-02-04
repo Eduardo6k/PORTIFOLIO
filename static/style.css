@@ -195,3 +195,49 @@ e 10px de altura para a barra horizontal */
     background: rgb(28, 28, 127);
     border-radius:20%;
     }
+
+.section-bg{
+    background: #c7dee1;
+}
+
+
+
+
+/* curriculo */
+.cv .cv-titulo{
+    margin-bottom:20px;
+    margin-top:20px;
+    font-weight: 700;
+    background: #dfecee;
+    border-right:60px solid rgb(22, 54, 88);
+    color:#000000;
+}
+.cv .cv-item{
+    padding: 0 0 20px 20px;
+    margin-top:10px;
+    border-left:2px solid rgb(22, 54, 88);
+}
+.cv .cv-item h5{
+    background: rgba(141, 149, 158, 0.271);
+    display:inline-block;
+    padding:10px;
+}
+.cv .cv-item h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5rem;
+    position: relative;
+
+}
+/* before adiciona um item a o elemento pai */
+.cv .cv-item h4::before{
+    content: "";
+    position:absolute;
+    width:16px;
+    height: 16px;
+    background: #260d5f;
+    border:1px solid #000000;
+    border-radius: 50%;
+    top:0px;
+    left:-30px;
+
+}
