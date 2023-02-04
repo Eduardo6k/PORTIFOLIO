@@ -64,6 +64,10 @@ html,body{
     margin-right:6px;
     color: rgb(28, 28, 127);
 }
+.nav-menu ul{
+    list-style-type:none;
+    margin-left:-30px;
+}
 .nav-menu li:hover i,.active i{
     color:rgb(49, 49, 236);
 }
@@ -78,11 +82,9 @@ html,body{
     font-size:1.3rem;
 }
 .nav-menu a:hover,a.active{
-    /* display:flex; */
     align-items:center;
     color: rgb(215, 223, 231);
     transition:0.3s;
-    /* font-size:1.3rem; */
 }
 /* parte principal/ main */
 #main{
@@ -152,7 +154,7 @@ section#inicio div#arraste a{
     overflow: hidden;
 }
 .menu-nav-active #header{
-    transition:all 0.3s;
+    transition:all ease-in-out 0.2s;
     left: 0;
 }
 @media(max-width:1024px){
@@ -175,3 +177,21 @@ section#inicio div#arraste a{
         font-size:1rem;
     }
 }
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+    width:15px;
+    height: 10px;
+    }
+     
+    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+    ::-webkit-scrollbar-track {
+    background:#6f8386;
+    }
+     
+    /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando uma cor azul clara nela*/
+    ::-webkit-scrollbar-thumb {
+    background: rgb(28, 28, 127);
+    border-radius:20%;
+    }

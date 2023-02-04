@@ -36,10 +36,12 @@
             </div>
         </section>
     <nav class="nav flex-column nav-menu">
-        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill"></i> home</a>
-        <li> <a class="nav-link" href="#"> <i class="bi bi-code-square"></i> PROJETOS</a></li> 
-        <li> <a class="nav-link" href="#"> <i class="bi bi-person-circle"></i> SOBRE</a></li>
-        <li> <a class="nav-link" href="#"> <i class="bi bi-graph-up"></i> HABILIDADES</a></li>
+        <a class="nav-link active" aria-current="page" href="#main"><i class="bi bi-house-fill"></i> inicio</a>
+        <ul>
+            <li> <a class="nav-link" href="#"> <i class="bi bi-code-square"></i> PROJETOS</a></li> 
+            <li> <a class="nav-link" href="#sobre"> <i class="bi bi-person-circle"></i> SOBRE</a></li>
+            <li> <a class="nav-link" href="#"> <i class="bi bi-graph-up"></i> HABILIDADES</a></li>
+        </ul>
     </nav>
     </aside>
     <!-- fim da barra lateral de informações -->
@@ -48,18 +50,48 @@
     <main id="main">
         <!-- começo da primeira seçao -->
         <section class="row m-0 p-0" id="inicio">
-            <div class="col-md-5 d-flex justify-content-center  flex-column">
+            <div class="logo col-md-5 d-flex justify-content-center  flex-column">
                 <h2>seja bem vindo</h2>
                 <p>este é meu portifolio</p>
             </div>
             <div id="arraste" class="col-md-7 d-flex justify-content-end align-items-end flex-column">
              <div class="d-flex align-items-center">
                 <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-                <a href="">arraste para mais</a>
+                <a href="#sobre">arraste para mais</a>
              </div>
             </div>
         </section>
         <!-- fim da primeira seçao -->
+
+        <!-- segunda seçao  -->
+        <section class="container mt-5" id="sobre">
+            <div class="row-100">
+                <div class="col-md-12">
+                    <h2 class="pt-3">sobre</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit lectus rhoncus, eros est orci eleifend massa primis laoreet sollicitudin ad interdum, vivamus accumsan lacus torquent morbi fringilla cras id. Ut lobortis accumsan in iaculis elementum blandit, massa sagittis est curae nibh tempor netus, natoque non pharetra eleifend mattis. Pharetra taciti eu torquent vestibulum primis quis, auctor lacus id dignissim ultricies dis ipsum, vulputate facilisi donec elementum varius. Elementum suscipit sit nibh habitasse consectetur nullam tellus, torquent accumsan dis lorem eros est, feugiat hendrerit praesent ultrices sagittis scelerisque. Dictum vel aliquam vulputate enim ut ante, sit torquent sed egestas mattis sapien, viverra dis aenean nisl habitasse. Laoreet lectus cubilia eget vivamus accumsan ac proin sit, mattis urna risus id taciti morbi potenti mollis nullam, rhoncus venenatis at leo pretium dapibus posuere. Pharetra rhoncus habitant consequat parturient pulvinar ante imperdiet hac sapien ridiculus quam augue mauris justo, elementum suscipit metus morbi venenatis phasellus posuere per convallis id class risus inceptos. Pharetra magna cubilia id conubia sapien luctus ac nibh, posuere adipiscing inceptos condimentum leo massa elementum ut blandit, aliquet ante nunc consectetur venenatis elit lobortis.
+                    </p>
+                </div>
+            </div>
+        <!-- foto -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img class="img-fluid shadow" src="../static/img/robo.jfif" alt="foto de perfil">
+            </div>
+            <div class="col-md-8 mt-5">
+                <h2>Eduardo alves martins neto</h2>
+                <p>cencerjrjvr rvj rvv rjvercercer crecerc ecrecrrecer errcer rercere crcecec receervtv eccecece eecee</p>
+                <ul class="list-group list-group-flush fs-5">
+                    <li class="list-group-item">Idade: <span class="fw-lighter">19 anos</span>
+                    </li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                  </ul>
+            </div>
+        </div>
+        </section>
 
     </main>
     <!-- fim do main -->
